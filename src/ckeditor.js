@@ -15,6 +15,7 @@ import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload.js';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
+import AutoLink from '@ckeditor/ckeditor5-link/src/autolink';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
@@ -68,6 +69,7 @@ Editor.builtinPlugins = [
 	LinkImage,
 	Indent,
 	Link,
+	AutoLink,
 	List,
 	MediaEmbed,
 	Clipboard,
