@@ -31,6 +31,7 @@ import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
+import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
@@ -64,6 +65,7 @@ Editor.builtinPlugins = [
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
+	LinkImage,
 	Indent,
 	Link,
 	List,
