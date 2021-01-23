@@ -5,6 +5,10 @@
   "version": "1.5.0",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Novelitist/ckeditor5-full.git"
+  },
   "devDependencies": {
     "@ckeditor/ckeditor5-alignment": "^24.0.0",
     "@ckeditor/ckeditor5-autoformat": "^24.0.0",
